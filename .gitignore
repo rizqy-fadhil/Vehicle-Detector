@@ -1,0 +1,16 @@
+# Mengabaikan environment Python
+yolo_env/
+venv/
+env/
+.venv/
+
+# Mengabaikan folder dataset (karena berat dan banyak file gambar)
+dataset/
+
+# Mengabaikan cache & file sementara Python
+__pycache__/
+*.pyc
+.DS_Store
+
+# Mengabaikan file model pre-trained bawaan YOLO (opsional, agar tidak menuh-menuhin)
+yolov8n.pt
